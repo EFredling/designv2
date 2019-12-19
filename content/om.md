@@ -4,7 +4,7 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-kursrepo
 
@@ -12,17 +12,24 @@ views:
         region: sidebar-right
         template: anax/v2/block/default
         data:
-            meta: 
+            meta:
                 type: single
                 route: block/om-redovisa
+
 ---
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+Design
 
-Skriv några kloka ord om kursen?
+Den bästa designen går inte att överträffa. Det är bara att kliva ut i naturen och och låta sig överväldigas. Vilken inspiration, vilken intelligens. Allt finns ju redan där. Färger, rörelse, kontraster och balans. Allt har sin plats.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
+Varför denna bild? Det är många delar i en "design" som ska samspela för att göra ett oförglömligt intryck. Den här bilden är "lånad" från internet men beskriver ett dyrbart minne från när jag var liten. Jag stod och höll min pappa i handen på färjan över til Nordcap. Plötsligt var de där, jättelika valkroppar som vältrade sig bredvid båten. Glömmer det aldrig! De förmedlade lycka. Lycklig.  
 
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/orcas.jpg?w=440 caption="Orcas."]
+
+[//]: # (Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.)
+
+Mina "kloka" ord om kursen.
+
+Jag är fortfarande alldeles i början och försöker förstå/lära mig fördelarna med markdown. Så det klokaste just nu är nog att hålla tyst och öka på kunskaperna.

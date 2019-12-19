@@ -1,25 +1,44 @@
 ---
-title: "Min fina titel"
+title: "Ellas me-sida"
+views:
+    pipokurr:
+        region: sidebar-right
+        template: anax/v2/block/default
+        data:
+            meta:
+                type: single
+                route: block/om-pipokurr
+
+    byline:
+        region: main
+        template: anax/v2/block/default
+        sort: 2
+        data:
+            meta:
+                type: single
+                route: block/byline    
 ---
-Min me-sida i kursen design
+Väkommen till min me-sida i kursen design
 =========================
+[FIGURE src="image/pipokurr.jpg?w=200" class="right" caption="Familjemedlemmar"]
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[//]: # (Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.)
 
-Detta är min me-sida i kursen. Denna sidan innehåller en presentation av mig själv. Underhåll denna sidan under hela kursen och uppdatera den efter hand och behov.
 
-Så, en presentation en bra början. Skriv några ord om dig själv. Jag börjar.
 
-Mitt namn är Mikael Roos. Född och uppvuxen i Bankeryd, Småland, strax utanför Jönköping, i ett villaområde som byggdes upp samtidigt som vi flyttade in där. Jag gillade landhockey och har spelat bandy och hockey samt gått bowlinggymnasiet i Nässjö. Jag har varit städare, diskare, kallskänka, servitör och kock. På ett bananskal landade jag i Ronneby när jag började högskolan 1990 där och nu är jag kvar med fru, barn och så vidare.
 
-Programmering har alltid intresserat mig sedan 13-årsåldern och min första dator var en Spectravideo 328 med bandspelare.
+Jag heter Elisabet Fredling men kallas för Ella.
 
-Om jag skall nämna någon hobby, förutom webbprogrammering, så får det bli att bära sten på sommarstugetomten, och det finns sten så det räcker och blir över.
+Hellre en bild på min insida än min utsida. De säger mer om mig. Därför har jag valt ett par alster och en bild på två familjemedlemmar.
 
-Till och från får jag för mig att börja på lite hobbies, ett år satsade jag på pokerspel, ett annat år var det geocaching och sedan turfing. Nu ligger jag lågt med hobbies, men något kanske dyker upp...?
 
-Vi syns och hörs i forum och chatt!
+Lite om mej
+------------
+Jag är uppvuxen i Barkarby utanför Stockholm. Men bor nu på Kungsholmen sedan många år. Är gift med Tommy som har varit köksmästare både här och där. Han göder och föder mig. Nu driver vi ett företag ihop som importerar delikatesser och vin.
 
-/Mikael
+[FIGURE src="image/tavla_nz.jpg?w=350" class="right" caption="Nya Zeeland"]
+[FIGURE src="image/teckn_sanna2.jpg?w=205" class="right" caption="Lillasyster"]
+
+Har rest en hel del och i tonåren var jag 6 månader i Nya Zeeland. målningens motiv är därifrån.
+Älskar att sjunga. Musiken har en stor plats i mitt hjärta. Tycker om att måla och teckna. Photoshop och Illustrator är favoritprogram. Men att promenera längst Norr Mälarstrand, runda stadshuset och kanske ta en fika med nån kompis är inte helt fel det heller.
