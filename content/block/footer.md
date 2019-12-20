@@ -1,1 +1,3 @@
-Copyright år och ditt namn samt diverse länkar som du finner relevanta.
+© 2019 Elisabet Fredling
+https://dbwebb.se/kurser/design
+https://gitter.im/dbwebb-se/design

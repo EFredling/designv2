@@ -19,8 +19,7 @@ views:
                 route: block/byline    
 ---
 Väkommen till min me-sida i kursen design
-=========================
-[FIGURE src="image/pipokurr.jpg?w=200" class="right" caption="Familjemedlemmar"]
+=========================================
 
 
 [//]: # (Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/index.md`.)
@@ -41,4 +40,4 @@ Jag är uppvuxen i Barkarby utanför Stockholm. Men bor nu på Kungsholmen sedan
 [FIGURE src="image/teckn_sanna2.jpg?w=205" class="right" caption="Lillasyster"]
 
 Har rest en hel del och i tonåren var jag 6 månader i Nya Zeeland. målningens motiv är därifrån.
-Älskar att sjunga. Musiken har en stor plats i mitt hjärta. Tycker om att måla och teckna. Photoshop och Illustrator är favoritprogram. Men att promenera längst Norr Mälarstrand, runda stadshuset och kanske ta en fika med nån kompis är inte helt fel det heller.
+Älskar att sjunga. Musiken har en stor plats i mitt hjärta. Tycker om att måla och teckna. Photoshop och Illustrator är favoritprogram. Men att promenera längst Norr Mälarstrand, runda stadshuset och kanske ta en fika med en kompis är inte helt fel det heller.
