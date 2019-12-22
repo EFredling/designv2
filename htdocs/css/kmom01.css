@@ -22,7 +22,7 @@
     max-width: 960px;
     margin: 0 auto;
     padding: 5px;
-    background-color: #e35f1e30;
+    background-color: #8c300336;
 }
 
 .site-logo {
@@ -144,28 +144,28 @@ body {
 }
 
 
-    a:link {
-    color: #e35f1e
-    padding-right: 3px;
-    text-decoration: none;
-    font-style: Georgia,Times,'Times New Roman',serif;
+a:link {
+color: #e35f1e;
+text-shadow: 1px 1px #fff;
+padding-right: 3px;
+text-decoration: none;
+font-style: Georgia,Times,'Times New Roman',serif;
 }
 
 a:visited {
   text-decoration: none;
-      color: #e35f1e
+      color: #e35f1e;
 }
 
 a:hover {
-  text-shadow: 1px 1px gray;
-  color: #7eab2e;
+  text-shadow: 1px 1px 0.5px #500;
+  /*color: #f1efef;*/
 }
 
 a:active {
   color: gray;
    text-shadow: #000;
 }
-
 
 .region-flash {
     display: flex;
@@ -213,9 +213,9 @@ a:active {
     float: left;
 }
 
-li a:link {
+/*li a:link {
     color: #500;
-}
+*/
 
 /*.outer-wrap-footer {
     background-color: #424242;

@@ -1,4 +1,4 @@
-#### Pip och Kurris
+### Pip och Kurris
 
 [FIGURE src="image/pipokurr.jpg?w=150" class="right" caption="Familjemedlemmar"]
 

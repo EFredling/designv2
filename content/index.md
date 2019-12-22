@@ -31,6 +31,8 @@ Jag heter Elisabet Fredling men kallas för Ella.
 
 Hellre en bild på min insida än min utsida. De säger mer om mig. Därför har jag valt ett par alster och en bild på två familjemedlemmar.
 
+Flashbilden föreställer en del av en piporgel. De är inte bara vackra att se på, de kan ljuda härligt i det där piporna. Avancerad design och teknik i ett.  
+
 
 Lite om mej
 ------------
@@ -39,5 +41,5 @@ Jag är uppvuxen i Barkarby utanför Stockholm. Men bor nu på Kungsholmen sedan
 [FIGURE src="image/tavla_nz.jpg?w=350" class="right" caption="Nya Zeeland"]
 [FIGURE src="image/teckn_sanna2.jpg?w=205" class="right" caption="Lillasyster"]
 
-Har rest en hel del och i tonåren var jag 6 månader i Nya Zeeland. målningens motiv är därifrån.
-Älskar att sjunga. Musiken har en stor plats i mitt hjärta. Tycker om att måla och teckna. Photoshop och Illustrator är favoritprogram. Men att promenera längst Norr Mälarstrand, runda stadshuset och kanske ta en fika med en kompis är inte helt fel det heller.
+Har rest en hel del, och i tonåren var jag 6 månader i Nya Zeeland. Målningens motiv är därifrån.
+Musiken har en stor plats i mitt hjärta och jag älskar att sjunga. Tycker om att måla och teckna. Photoshop och Illustrator är favoritprogram. Men att promenera längst Norr Mälarstrand, runda stadshuset och kanske ta en fika med en kompis är inte helt fel det heller.
