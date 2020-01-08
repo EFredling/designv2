@@ -1,3 +1,3 @@
-#### Footer col 1
+##### KONTAKT
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Det som står längst till vänster. Viktigast?. Här kanske man vill en länk till ett kontaktformulär, kontaktinfo osv.

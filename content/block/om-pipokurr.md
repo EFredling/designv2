@@ -1,6 +1,6 @@
-### Pip och Kurris
+### P&K
 
-[FIGURE src="image/pipokurr.jpg?w=150" class="right" caption="Familjemedlemmar"]
+[FIGURE src="image/pipokurr.jpg?w=150" class="right" caption="Kattkram"]
 
 
 Familjens nya knasbollar.

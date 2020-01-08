@@ -1,3 +1,3 @@
-#### Footer col 3
+##### FOLLOW ME
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+Lite information och länkar till min obefintliga facebooksida, instagram och en design-portfolio? U never know..

@@ -1,3 +1,3 @@
-#### Footer col 2
+##### dizzy ..DESIGN
 
-Med brödtext i ett stycke som säger något trevligt om just detta block, eller kanske en lista av länkar.
+I mitten. Här kanske jag skriver lite tips om bra sidor som har mer att säga om design.
