@@ -1,0 +1,504 @@
+/*!
+ * Stylesheet for design kmom02.
+ *
+ * This stylesheet is for the design course and kmom02 where we use LESS.
+ */
+
+
+/**
+  * Normalize and reset the style.
+  */
+ @import "normalize.css/normalize.less";
+
+
+/**
+  * Font Awesome.
+  */
+ @import "@fortawesome/fontawesome-free/less/fontawesome.less";
+ @import "@fortawesome/fontawesome-free/less/solid.less";
+ @import "@fortawesome/fontawesome-free/less/brands.less";
+
+
+
+/**
+ * Internal self contained modules, save in directory module/.
+ */
+/*!
+ * Stylesheet for design kmom01.
+ *
+ * This stylesheet is for the design course and kmom01. Fill it with style
+ * to style up the website so it is useable.
+ */
+/* Hide submenu, leave this to kmom02 */
+/*.rm-desktop ul {
+    display: none;
+}*/
+/* Hide responsive/mobile menu, leave this to kmom02 */
+/*.rm-navbar-max {
+    display: none;
+}*/
+/*body {
+    color: #500;
+    //background-color: #7f3e3e;
+    //background-color: #7b7b7b;
+    font: 100.01%/1.5 Verdana,Geneva,sans-serif;
+}*/
+/*.wrap-all {
+    max-width: 960px;
+    margin: 0 auto;
+    //background-color: #ccc;
+    background-color: #dfc7bbe6;
+    //background-color: #8c300336;
+}*/
+/*.site-logo {
+    display: none;
+}*/
+/** {
+    box-sizing: border-box;
+}*/
+/*
+img {
+    max-width: 100%;
+    border-style: none;
+}*/
+/*.site-logo-text {
+    font-family: "Times New Roman",Times,serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    float: left;
+}*/
+/*.outer-wrap-header {
+    height: 120px;
+}*/
+/*.inner-wrap.inner-wrap-header {
+    padding: 30px;
+}*/
+/*h1 {
+    font-size: 1.7em;
+    line-height: 1.2;
+    font-weight: 400;
+    border-bottom: 1px solid #baa275;
+    margin-bottom: 23px;
+}
+    h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-weight: 400;
+    padding-top: 20px;
+}*/
+/*.region-header-col-1 {
+    float:left;
+    width: 20%;
+    margin-bottom: 10px;
+}*/
+/*.region-header-col-2 {
+    float:left;
+    width: 70%;
+    margin-left: 20px;
+}*/
+/*.rm-navbar li {
+    font-size: 18px;
+    display:inline;
+    margin-left: 3%;
+    font-style: Verdana,Geneva,sans-serif;
+}*/
+/*.rm-navbar li a:link {
+color: #990000;
+text-shadow: 1px 1px #fff;
+padding-right: 3px;
+text-decoration: none;
+}
+
+.rm-navbar li a:visited {
+  text-decoration: none;
+      color: #990000;
+    }
+
+.rm-navbar li a:hover {
+  text-shadow: 1px 1px 0.5px #500;
+  color: #f2f2f2;
+}
+
+.rm-navbar li a:active {
+  color: gray;
+   text-shadow: #000;
+}*/
+/*.region-header-col-3 {
+    float:left;
+    background-color: blue;
+    width: 10%;
+}*/
+/*a:link {
+    color: #4d4d00;
+    text-shadow: 1px 1px #fff;
+    padding-right: 3px;
+    text-decoration: none;
+    font-style: Verdana,Geneva,sans-serif;
+    }
+
+    a:visited {
+      text-decoration: none;
+          color: #4d4d00;
+    }
+
+    a:hover {
+     color: #e35f1e;
+      text-shadow: 1px 1px 0.5px #500;
+      //color: #f1efef;
+    }
+
+    a:active {
+      color: gray;
+       text-shadow: #000;
+    }*/
+/*.region-flash {
+    display: flex;
+    width: 100%;
+    margin: 0;
+}*/
+/*.region-flash-message {
+    display: inline-block;
+    font-size: 0.8em;
+    font-style: italic;
+    padding-left: 20px;
+}*/
+/*.has-sidebar-right {
+    Width: 72%;
+    float:left;
+}*/
+/*.article {
+    background-color: #f1efef;
+    padding: 1px 20px;
+}*/
+/*.region-sidebar-right {
+    float: right;
+    width: 24%;
+    padding-right: 1%;
+    background-color: #f1efef;
+    }*/
+/*.figure.right {
+    //max-width: 100%;
+    margin-left: 10px;
+    display: block;
+    float: right;
+}*/
+/*.figure.left {
+    float: left;
+}*/
+/*.block {
+    margin-left: 20px;
+}*/
+/*.region-main {
+    background-color: #e5dbdb;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}*/
+/*.stylechooser {
+    padding: 20px;
+}*/
+/*.next {
+    margin-left: 20px;
+}*/
+/*fieldset {
+    border-style: ridge;
+    border-width: 2px;
+    border-color: #dfc7bb;
+    padding-bottom: 20px;
+    width: 70%;
+    margin: 0 auto;
+}*/
+/*.region-footer {
+    color: #500;
+    width: 100%;
+    float: left;
+    border-top: 2px;
+    border-top-style: ridge;
+    border-top-color: #dfc7bb;
+    background-color: #f1efef;
+}*/
+/*.footer-column {
+    float: left;
+    width: 31%;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 30px;
+}*/
+/*.site-footer p {
+    color: #990000;
+    text-align: center;
+    padding-bottom: 24px;
+}*/
+/**
+ * Style for the stylechooser.
+ */
+/**
+ * Variables
+ */
+/**
+ * Style
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+html {
+  overflow-y: scroll;
+  background-color: #fff;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #fff;
+  font: 100.01%/1 sans-serif;
+}
+img {
+  max-width: 100%;
+  border-style: none;
+}
+h1 {
+  font-size: 1.7em;
+  line-height: 1.2;
+  font-weight: 400;
+  border-bottom: 1px solid #baa275;
+  margin-bottom: 23px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-weight: 400;
+  padding-top: 20px;
+}
+a:link {
+  color: #4d4d00;
+  text-shadow: 1px 1px #fff;
+  padding-right: 3px;
+  text-decoration: none;
+  font-style: Verdana, Geneva, sans-serif;
+}
+a:visited {
+  text-decoration: none;
+  color: #4d4d00;
+}
+a:hover {
+  color: #e35f1e;
+  text-shadow: 1px 1px 0.2px #500;
+}
+a:active {
+  color: gray;
+  text-shadow: #000;
+}
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+/**
+ * Variables
+ */
+/**
+ * General layout
+ */
+/*.inner-wrap {
+    max-width: 960px;
+    margin: 0 auto;
+    height: 100%;
+    //background-color: #ccc;
+    background-color: #dfc7bbe6;
+    //background-color: #8c300336;
+}*/
+/* Hide submenu, leave this to kmom02 */
+.rm-desktop ul {
+  display: none;
+}
+/* Hide responsive/mobile menu, leave this to kmom02 */
+.rm-navbar-max {
+  display: none;
+}
+.wrap-all {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #dfc7bb;
+}
+.inner-wrap-header {
+  padding-top: 30px;
+}
+.site-logo {
+  display: none;
+}
+.site-logo-text {
+  font-family: "Times New Roman", Times, serif;
+  font-variant: small-caps;
+  font-size: 2em;
+  float: left;
+}
+.outer-wrap-header {
+  height: 120px;
+}
+.region-header-col-1 {
+  float: left;
+  padding-left: 20px;
+  margin-right: 20px;
+  width: 20%;
+}
+.region-header-col-2 {
+  float: left;
+  width: 60%;
+}
+.region-header-col-3 {
+  float: left;
+  width: 10%;
+}
+.rm-navbar li {
+  font-size: 18px;
+  display: inline;
+  margin-left: 3%;
+  font-style: Verdana, Geneva, sans-serif;
+}
+.rm-navbar li a:link {
+  color: #990000;
+  text-shadow: 1px 1px #fff;
+  padding-right: 3px;
+  text-decoration: none;
+}
+.rm-navbar li a:visited {
+  text-decoration: none;
+  color: #990000;
+}
+.rm-navbar li a:hover {
+  text-shadow: 1px 1px 0.5px #500;
+  color: #f2f2f2;
+}
+.rm-navbar li a:active {
+  color: gray;
+  text-shadow: #000;
+}
+.region-flash {
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+.region-flash-message {
+  display: inline-block;
+  font-size: 0.8em;
+  font-style: italic;
+  padding-left: 20px;
+}
+.has-sidebar-right {
+  Width: 72%;
+  float: left;
+}
+.article {
+  background-color: #f1efef;
+  padding: 1px 20px;
+}
+.region-sidebar-right {
+  float: right;
+  width: 24%;
+  padding-right: 1%;
+  background-color: #f1efef;
+}
+.figure.right {
+  margin-left: 10px;
+  display: block;
+  float: right;
+}
+.figure.left {
+  float: left;
+}
+.block {
+  margin-left: 20px;
+}
+.region-main {
+  background-color: #e5dbdb;
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+}
+.stylechooser {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.next {
+  margin-left: 20px;
+  height: 20px;
+  padding-top: 5px;
+}
+fieldset {
+  border-style: rmidge;
+  border-width: 2px;
+  border-color: #dfc7bb;
+  padding-bottom: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+.region-footer {
+  color: #500;
+  width: 100%;
+  float: left;
+  border-top: 2px;
+  border-top-style: ridge;
+  border-top-color: #dfc7bb;
+  background-color: #f1efef;
+}
+.footer-column {
+  float: left;
+  width: 31%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 30px;
+}
+.site-footer p {
+  color: #990000;
+  text-align: center;
+  padding-bottom: 24px;
+}
+/**
+ * Layout for responsive style through media queries.
+ */
+@media screen and (max-width: 1500px) {
+  .site-logo {
+    display: none;
+  }
+}
+/**
+ * Show off the regions used in the website, to ease styling.
+ */
+.regions .outer-wrap {
+  background-color: #f4e3c9;
+  border: 1px solid #e3b774;
+}
+.regions .inner-wrap {
+  background-color: #f4e0e9;
+  border: 1px solid #d995b4;
+}
+.regions .region-header-col-1,
+.regions .region-header-col-2,
+.regions .region-header-col-3,
+.regions .region-flash,
+.regions .region-breadcrumb,
+.regions .region-flash-message,
+.regions .region-columns-above,
+.regions .region-main,
+.regions .region-after-main,
+.regions .region-columns-below,
+.regions .region-sidebar-left,
+.regions .region-sidebar-right,
+.regions .region-footer,
+.regions .region-footer-column-1,
+.regions .region-footer-column-2,
+.regions .region-footer-column-3 {
+  background-color: #b5dce1;
+  border: 1px solid #6cbac4;
+  color: #111;
+}
+/**
+ * My own settings, not currently in their own module.
+ */

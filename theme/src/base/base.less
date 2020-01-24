@@ -1,0 +1,63 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #fff; //#424242;
+@bgColorBody: #9b8585;
+@colorBody: #333; //#500;
+@fontFamilyBody: sans-serif; //Verdana,Geneva; serif;
+
+html {
+    overflow-y: scroll;
+    background-color: @bgColorHtml;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    font: 100.01%/1 @fontFamilyBody;
+    line-height: 1.5;
+}
+
+img {
+    max-width: 100%;
+    border-style: none;
+}
+
+h1 {
+    font-size: 1.7em;
+    line-height: 1.2;
+    font-weight: 400;
+    border-bottom: 1px solid #baa275;
+    margin-bottom: 23px;
+}
+    h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia,Times,'Times New Roman',serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+a:link {
+color: #4d4d00;
+text-shadow: 1px 1px #fff;
+//padding-right: 3px;
+text-decoration: none;
+font-style: Verdana,Geneva,sans-serif;
+}
+
+a:visited {
+  text-decoration: none;
+      color: #4d4d00;
+}
+
+a:hover {
+ color: #e35f1e;
+  text-shadow: 1px 1px 0.2px #500;
+  //color: #f1efef;
+}
+
+a:active {
+  color: gray;
+   text-shadow: #000;
+}

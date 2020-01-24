@@ -1,0 +1,137 @@
+/**
+ * Layout for responsive style through media queries.
+ */
+
+@media screen and (max-width: 1500px) {
+    .site-logo {
+        display: none;
+    }
+}
+
+
+
+/**
+ * Navbar
+ */
+@media screen and (max-width: 960px) {
+    .rm-desktop a {
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .region-header-col-1,
+    .region-header-col-3 {
+        width: 15%;
+    }
+
+    .region-header-col-2 {
+        width: 70%;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .rm-desktop {
+        display: none;
+    }
+
+    .next {
+        background-color: #e5dbdb;
+    }
+}
+
+/**
+ * main & sidebars
+ */
+
+ @media screen and (max-width: 700px) {
+     .has-sidebar-right,
+     .has-sidebar-left,
+     .has-sidebar-left.has-sidebar-right {
+         width: 97%;
+         float: right;
+     }
+
+     .wrap-sidebar.region-sidebar-left.has-sidebar-left.has-sidebar-right.has-sidebar {
+         margin-top: 0;
+         width: 94%;
+         float: left;
+         margin-bottom: 10px;
+     }
+
+     .wrap-sidebar.region-sidebar-right.has-sidebar-left.has-sidebar-right.has-sidebar {
+         margin-top: 0;
+         width: 94%;
+         float: left;
+         margin-left: 1.5%;
+         //margin-bottom: 1.5%;
+     }
+}
+
+ @media screen and (max-width: 700px) {
+     .block {
+        overflow: auto;
+        width: 95%;
+     }
+ }
+
+ @media screen and (max-width: 900px) {
+     .figure.right {
+         display: block;
+         float: none;
+     }
+
+     .figure.right img {
+         display: block;
+         margin: 0 auto;
+     }
+ }
+
+ @media screen and (max-width: 800px) {
+     .figure.left {
+         display: block;
+         float: none;
+     }
+     .figure.left img {
+         display: block;
+         margin: 0 auto;
+     }
+
+     main {
+         padding: 25px;
+         margin-top: 0;
+     }
+ }
+
+
+@media screen and (max-width: 700px) {
+    .figure.left, .figure.right {
+        display: block;
+        float: none;
+        //padding-left: 20%;
+    }
+
+    main {
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    /**
+     * Footer
+     */
+    .footer-column {
+        width: 97%;
+        //margin: 0 auto;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        padding-bottom: unset;
+        margin-bottom: -3px;
+        //background-color: #c8b4a4;
+    }
+
+    .columns.footer-column-wrapper {
+    margin-left: -7px;
+}
+}

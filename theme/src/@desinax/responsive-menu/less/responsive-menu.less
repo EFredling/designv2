@@ -4,9 +4,9 @@
 
 // General
 //@navbarAccentColor:         #9FB129;
-@navbarItemBgColor:         inherit; //#444;
-@navbarItemColor:           inherit;
-@navbarItemHoverColor:      inherit; //lighten(@navbarItemColor, 20%);
+@navbarItemBgColor:         #dfc7bb; //#444;
+@navbarItemColor:           #dfc7bb; //inherit;
+@navbarItemHoverColor:      #f2f2f2; //lighten(@navbarItemColor, 20%);
 @navbarItemHoverBgColor:    inherit; //#666;
 
 // Menu item current/selected
@@ -20,8 +20,8 @@
 //@navbarMobileBorderColor:               #ddd;
 
 // The menu button
-@navbarMenuButtonColor:         inherit;
-@navbarMenuButtonBgColor:       transparent;
+@navbarMenuButtonColor:        #990000; //transparent;
+@navbarMenuButtonBgColor:      transparent;
 //@navbarMenuButtonBorderColor:   #999;
 
 // The menu button hover
@@ -30,7 +30,7 @@
 //@navbarMenuButtonHoverBorderColor:   #333;
 
 // The menu button clicked
-@navbarMenuButtonClickedColor:          #9FB129;
+@navbarMenuButtonClickedColor:          #990000; //#9FB129;
 @navbarMenuButtonClickedBgColor:        @navbarMenuButtonHoverBgColor;
 //@navbarMenuButtonClickedBorderColor:    lime;
 
@@ -45,18 +45,17 @@
 @mobileColor:       #fff;
 
 // Max menu
-@maxBgColor:                #131313;
+@maxBgColor:                #dfc7bb; //#131313;
 @maxMenuItemClickedBgColor: transparent; //@navbarMenuButtonClickedColor;
-@maxButtonColor:            inherit;
+@maxButtonColor:            #dfc7bb; //inherit;
 @maxButtonClickedColor:     @navbarMenuButtonClickedColor;
-@maxButtonSubmenuBgColor:    #444;
-@maxButtonSubmenuHoverBgColor: #ccc;
+@maxButtonSubmenuBgColor:   #dfc7bb; //#444;
+@maxButtonSubmenuHoverBgColor: #dfc7bb;
 
 /**
  * Outer wrapper for menu
  */
 .rm-navbar {
-
     position: relative;
 
     // Clear the style for ul
@@ -67,7 +66,13 @@
     }
 }
 
-
+/**
+ * Submenu mobilmenu
+ */
+.rm-default ul.rm-show-submenu {
+    left: 0;
+    background-color:  #e5dbdb;
+}
 
 /**
  * Avoid scrolling mobile devices
@@ -94,6 +99,7 @@ a.rm-button {
     background-color: @navbarMenuButtonBgColor;
     outline: none;
 
+
     //&:hover, // Avoid hover, click, double-tap behaviour
     &:active {
         color: @navbarMenuButtonHoverColor;
@@ -103,12 +109,16 @@ a.rm-button {
     .rm-button-face-1 {
         position: absolute;
         transition: color 0.10s ease;
+        color: @navbarMenuButtonColor;
+        text-shadow: none;
     }
 
     .rm-button-face-2 {
         position: relative;
+        //color: #dfc7bb;
         color: transparent;
         transition: color 0.10s ease;
+        text-shadow: none;
     }
 
     &.rm-clicked {
@@ -212,7 +222,7 @@ a.rm-button {
         // Style hovering over a menu item
         a:hover,
         &.current-menu-item a {
-            text-decoration: underline;
+            text-decoration: none;
         }
 
 
@@ -330,7 +340,7 @@ a.rm-button {
         display: block;
 
         .rm-button {
-            color: @maxButtonColor;
+            color: #dfc7bb; //@maxButtonColor;
 
             &.rm-clicked {
                 //background-color: transparent;
@@ -368,7 +378,10 @@ a.rm-button {
         }
 
         a:hover {
-            text-decoration: underline;
+            text-shadow: 1px 1px 0.5px #500;
+            color: #f2f2f2;
+            text-decoration: none;
+            //text-decoration: none;
         }
 
         /* Button for submenu */
@@ -398,7 +411,7 @@ a.rm-button {
 
         /* Style for submenu */
         li ul {
-            padding-left: 8px;
+            padding-left: 5px; //8px;
         }
 
         // Header of submenu is opened

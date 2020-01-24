@@ -1,0 +1,64 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+ /**
+ *Header layout
+ */
+.outer-wrap-header {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #dfc7bb;
+    //overflow: auto;
+    .clearfix();
+ }
+
+
+ .inner-wrap-header {
+     max-width: 100%;
+ }
+
+
+ /**
+  * Flashmessage layout
+  */
+.flashmessage-icon {
+    float: left;
+    padding-right: 7px;
+}
+
+.flashmessage.info {
+    width: 250px;
+}
+
+.inner-wrap-flash-message {
+    background-color: #e5dbdb;
+}
+
+.inner-wrap-main {
+    background-color: #e5dbdb;
+    min-height: 400px;
+    .clearfix();
+}
+
+/**
+ * Footer layout
+ */
+.outer-wrap-footer {
+    border-top-style: ridge;
+    border-top-color: #dfc7bb;
+ }
+
+.outer-wrap-footer,
+.inner-wrap-footer {
+    //color: #f2f2f2;
+    background-color: #d2ccc6; //#c8b4a4;
+    padding-bottom: 40px;
+    .clearfix();
+}
