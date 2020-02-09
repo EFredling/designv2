@@ -5015,7 +5015,7 @@ a:link {
   color: #4d4d00;
   text-shadow: 1px 1px #fff;
   text-decoration: none;
-  font-style: Verdana, Geneva, sans-serif;
+  font-style: Verdana, "Geneva", sans-serif;
 }
 a:visited {
   text-decoration: none;
